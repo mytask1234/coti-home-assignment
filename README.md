@@ -47,17 +47,17 @@ Examples (examples are independent one from other):
 assuming that input was 5 and also previous inputs were 1,2,3 then:  
 		{ "output1": 11 , "output2" : 2 }  
 <br />
-2. at first, interval enabled array is []  
-user call /insert value=4  
-array [4] database [4]  
-user call /insert value=5  
-array [4,5] database [4,5]  
-user call /insert value=123  
-array [4,5,123] database [4,5,123]  
-user call /delete index=1  
-array [4,-1,123] database [4,123,5]  
-user call /return, with values=0,1,2  
-it will return [4,-1,123]  
+2. at first, interval enabled array is []  <br />
+user call /insert value=4  <br />
+array [4] database [4]  <br />
+user call /insert value=5  <br />
+array [4,5] database [4,5]  <br />
+user call /insert value=123  <br />
+array [4,5,123] database [4,5,123]  <br />
+user call /delete index=1  <br />
+array [4,-1,123] database [4,123,5]  <br />
+user call /return, with values=0,1,2  <br />
+it will return [4,-1,123]  <br />
   
   
 Upload the solution to your git account and reply with the details  
